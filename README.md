@@ -1,15 +1,17 @@
 # Rock/Paper/Scissors Project
 
-Description...
+This project was intended to allow me to practice the Javascript Fundamentals by implementing Rock Paper Scissors in a browser console game.
 
 This is a project from [The Odin Project](https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors).
 
-Screenshot...
+![Screenshot of Project Code](screenshot.png)
 
 ## Pre-Project Thoughts
 
-...
+Nothing really.
 
 ## Post-Project Thoughts
 
-...
+Very quick; very easy.
+My javascript probably is not as clean as my ruby code.
+Bear with me; it'll improve rapidly.
