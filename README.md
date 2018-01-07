@@ -7,7 +7,7 @@ This is a project from [The Odin Project](https://www.theodinproject.com/courses
 ![Screenshot of Project Code](assets/images/screenshot.png)
 The Code
 
-Screenshot of the Game..
+![Screenshot of Web UI](assets/images/screenshot_two.png)
 
 ## Pre-Project Thoughts
 
