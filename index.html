@@ -4,48 +4,21 @@
     <!-- Required Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/stylesheets/default.css">
   </head>
   <body>
-    <script>
-      function computerPlay() {
-        let handChoices = ['rock', 'paper', 'scissors'];
-        return handChoices[Math.floor(Math.random()*handChoices.length)];
-      }
-
-      function rockPaperScissorsRound(playerSelection, computerSelection) {
-        playerSelection = playerSelection.toUpperCase();
-        computerSelection = computerSelection.toUpperCase();
-        if(playerSelection === computerSelection) {
-          return 0;
-        } else if ((playerSelection === "ROCK" && computerSelection === "SCISSORS") ||
-                   (playerSelection === "PAPER" && computerSelection === "ROCK") ||
-                   (playerSelection === "SCISSORS" && computerSelection === "PAPER")) {
-          return 1;
-        } else {
-          return -1;
-        }
-      }
-
-      function game() {
-        let playerScore = 0;
-        let computerScore = 0;
-        for (i = 0; i < 5; i++) {
-          let playerSelection = prompt(`Turn ${i + 1}: Choose your hand: rock, paper, or scissors!`);
-          let computerSelection = computerPlay();
-          let result = rockPaperScissorsRound(playerSelection, computerSelection);
-          if (result === 1) {
-            playerScore++;
-            console.log(`You win this turn! ${playerSelection} beats ${computerSelection}.`);
-          } else if (result === -1) {
-            computerScore++;
-            console.log(`You lose this turn.. ${computerSelection} beats ${playerSelection}`);
-          } else {
-            console.log("Draw!");
-          }
-        }
-        console.log(playerScore > computerScore ? "You win the game!" : "You lose the game..");
-      }
-    </script>
+    <div class="container">
+      <h1>Rock, Paper, Scissors</h1>
+      <p>The winner reaches five points first!</p>
+      <p>You: <span id="player-score">0</span></p>
+      <p>Computer: <span id="computer-score">0</span></p>
+      <button><img id="rock" src="assets/images/rock.jpg"></button>
+      <button><img id="paper" src="assets/images/paper.jpg"></button>
+      <button><img id="scissors" src="assets/images/scissors.jpg"></button>
+    </div>
+    <script src="assets/javascripts/rock-paper-scissors.js"></script>
   </body>
 </html>
 

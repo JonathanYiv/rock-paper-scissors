@@ -1,10 +1,13 @@
 # Rock/Paper/Scissors Project
 
-This project was intended to allow me to practice the Javascript Fundamentals by implementing Rock Paper Scissors in a browser console game.
+This project was intended to allow me to practice the Javascript Fundamentals by implementing Rock Paper Scissors in a browser UI game.
 
-This is a project from [The Odin Project](https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors).
+This is a project from [The Odin Project](https://www.theodinproject.com/courses/web-development-101/lessons/rock-paper-scissors), and was upgraded in a follow-up [practice exercise](https://www.theodinproject.com/courses/web-development-101/lessons/dom-manipulation) to have a Web UI.
 
-![Screenshot of Project Code](screenshot.png)
+![Screenshot of Project Code](assets/images/screenshot.png)
+The Code
+
+Screenshot of the Game..
 
 ## Pre-Project Thoughts
 
